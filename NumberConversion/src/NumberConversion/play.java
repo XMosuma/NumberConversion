@@ -12,7 +12,7 @@ public class play{
         while (true){
             try {
                 Scanner scanner = new Scanner(System.in);
-                System.out.println("play/exit");
+                System.out.println("Enter play to start converting/exit");
                 play= scanner.nextLine();
 
             } catch( InputMismatchException ex1 ) {
